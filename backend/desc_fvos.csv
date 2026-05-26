@@ -1,0 +1,6 @@
+Field	Type	Null	Key	Default	Extra
+fvo_id	int	NO	PRI	NULL	auto_increment
+name	varchar(100)	NO		NULL	
+phone	varchar(15)	NO		NULL	
+assigned_area	varchar(100)	YES		NULL	
+availability_status	varchar(20)	YES		Available	

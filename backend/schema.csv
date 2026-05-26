@@ -1,0 +1,9 @@
+﻿Field	Type	Null	Key	Default	Extra
+user_id	int	NO	PRI	NULL	auto_increment
+name	varchar(255)	NO		NULL	
+email	varchar(255)	YES	UNI	NULL	
+username	varchar(255)	YES	UNI	NULL	
+password	varchar(255)	NO		NULL	
+role	enum('ADMIN','USER','FVO')	NO		NULL	
+linked_org_id	int	YES		NULL	
+created_at	timestamp	YES		CURRENT_TIMESTAMP	DEFAULT_GENERATED

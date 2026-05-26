@@ -1,0 +1,59 @@
+{
+  "Organization": [
+    {
+      "org_id": 1,
+      "org_name": "Red Cross",
+      "org_type": "NGO",
+      "contact_person": "John Mathew",
+      "phone_number": "9876543210",
+      "email": "redcross@mail.com",
+      "address": "Chennai",
+      "trust_score": 50
+    },
+    {
+      "org_id": 2,
+      "org_name": "Tamil Nadu Disaster Authority",
+      "org_type": "Government",
+      "contact_person": "Arun Kumar",
+      "phone_number": "9123456789",
+      "email": "tnda@mail.com",
+      "address": "Chennai",
+      "trust_score": 50
+    }
+  ],
+  "Disaster": [
+    {
+      "disaster_id": 1,
+      "disaster_type": "Flood",
+      "severity_level": "High",
+      "location_id": 1,
+      "disaster_date": "2026-03-14T18:30:00.000Z"
+    }
+  ],
+  "Resource": [
+    {
+      "resource_id": 1,
+      "resource_name": "Medical Kits",
+      "resource_type": "Medical",
+      "quantity_available": 200
+    },
+    {
+      "resource_id": 2,
+      "resource_name": "Food Packets",
+      "resource_type": "Relief",
+      "quantity_available": 1000
+    },
+    {
+      "resource_id": 3,
+      "resource_name": "Rescue Boats",
+      "resource_type": "Vehicle",
+      "quantity_available": 20
+    },
+    {
+      "resource_id": 4,
+      "resource_name": "Blankets",
+      "resource_type": "Relief",
+      "quantity_available": 500
+    }
+  ]
+}
